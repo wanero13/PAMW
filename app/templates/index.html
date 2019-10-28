@@ -1,0 +1,36 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+    Rejestracja
+{% endblock %}
+
+
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('.static', filename='style.css')}}">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <form id="myForm" class="form-signin" enctype="multipart/form-data" name="myForm" action="http://pi.iem.pw.edu.pl:5000/register" onsubmit = "return(validate());"  method="post">
+            <h2 class="form-signing-heading">Rejestracja</h2>
+            {{ form.hidden_tag() }}
+            {{ wtf.form_field(form.firstname) }}
+            {{ wtf.form_field(form.lastname) }}
+            {{ wtf.form_field(form.password) }}
+            {{ wtf.form_field(form.birthdate) }}
+            {{ wtf.form_field(form.login) }}
+            {{ wtf.form_field(form.pesel) }}
+            {{ wtf.form_field(form.sex) }}
+            {{ wtf.form_field(form.photo) }}
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="myBtn">Zarejestruj</button>
+        </form>
+
+    </div> <!-- /container -->
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+<script src="{{url_for('.static', filename='script.js')}}"></script>
+{% endblock %}
