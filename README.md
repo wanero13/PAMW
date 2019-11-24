@@ -18,3 +18,7 @@ Aby się zarejestrować należy wejść pod adres **localhost:3000/register** lu
 Po kliknięciu przycisku *Zarejestruj*, jeśli operacja się powiedzie, uzytkownik zostanie przekierowany na stronę głowną, na której zostanie wyświetlona informacja o pomyślnej rejstracji.
 
 Następnie użytkownik może się zalogować klikając w panelu nawigacji w guzik **Logowanie**, lub przejść pod adres **localhost:3000/login** i wypełnić formularz logowania danymi konta - na przykład: janek, 12345678. Jeśli logowanie zostanie przeprowadzone poprawnie użytkownik zostanie przekierowany na stronę zalogowania. Aby się wylogować, należy kliknąć przycisk wyloguj w prawym górnym rogu ekranu. Po wylogowaniu użytkownik zostanie znowu przekierowany na strone głowną aplikacji.
+
+
+## Swagger
+Dokumentacja API w Swaggerze znajduje się pod adresem **loclhost:5000/swagger**. Na razie zawiera tylko bardzo prosty przykład.
