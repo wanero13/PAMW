@@ -20,6 +20,7 @@ app.config['WTF_CSRF_ENABLED'] = False
 POST = "POST"
 GET = "GET"
 SESSION_ID = "session-id"
+SECRET_KEY='12345678'
 
 @nav.navigation()
 def mynavbar():

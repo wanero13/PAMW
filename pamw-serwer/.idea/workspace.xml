@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d6f6e80-9d9a-4f38-b5f0-b6d5558bb1d5" name="Default Changelist" comment="" />
+    <list default="true" id="0d6f6e80-9d9a-4f38-b5f0-b6d5558bb1d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../pamw-flask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pamw-flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +38,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1T19QpCtXARuCIdI6m3KX6iFfwn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pamw-flask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -142,14 +148,32 @@
       <workItem from="1574598867209" duration="140000" />
       <workItem from="1574599134036" duration="626000" />
       <workItem from="1574599803682" duration="3246000" />
+      <workItem from="1574623764321" duration="296000" />
+      <workItem from="1574624061779" duration="154000" />
+      <workItem from="1574624482570" duration="49000" />
+      <workItem from="1574624567636" duration="62000" />
+      <workItem from="1574624725240" duration="676000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pamw_serwer$pamw_serwer.coverage" NAME="pamw-serwer Coverage Results" MODIFIED="1574619212602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pamw_serwer$pamw_serwer.coverage" NAME="pamw-serwer Coverage Results" MODIFIED="1574624496329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pamw_serwer$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1574598512975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

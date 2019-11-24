@@ -4,6 +4,7 @@ from flask import make_response
 
 app = Flask(__name__)
 
+SECRET_KEY='12345678'
 
 @app.route('/')
 def hello_world():
