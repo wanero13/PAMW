@@ -1,13 +1,23 @@
-version: '2'
+version: "3"
 services:
+  redis:
+    container_name: redis
+    image: redis
   web:
-    container_name: pamiw
+    container_name: pamw_app
     restart: always
-    build:
-      context: .
-      dockerfile: ./Dockerfile
+    build: ./pamw-flask
     command: []
     ports:
       - "3000:80"
-    volumes:
-      - ./app:/app
+    environment:
+      - REDIS_NAME=redis
+    depends_on:
+      - redis
+  webserv:
+    container_name: pamw_rest
+    restart: always
+    build: ./pamw-serwer
+    command: []
+    ports:
+      - "5000:81"
