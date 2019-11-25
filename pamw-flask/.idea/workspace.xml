@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c380397a-547c-4e41-8101-c27405128b05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/logged.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/logged.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pamw-serwer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-serwer/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pamw-serwer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-serwer/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,7 +169,7 @@
       <workItem from="1574623772201" duration="151000" />
       <workItem from="1574623924606" duration="739000" />
       <workItem from="1574624688797" duration="10206000" />
-      <workItem from="1574641873899" duration="5044000" />
+      <workItem from="1574641873899" duration="5346000" />
     </task>
     <servers />
   </component>

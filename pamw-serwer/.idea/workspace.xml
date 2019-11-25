@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d6f6e80-9d9a-4f38-b5f0-b6d5558bb1d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../pamw-flask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pamw-flask/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pamw-flask/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pamw-flask/templates/logged.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/templates/logged.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pamw-flask/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pamw-flask/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pamw-flask/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,8 +114,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Flask server.pamw-serwer" />
       <item itemvalue="Flask server.Flask (main.py)" />
+      <item itemvalue="Flask server.pamw-serwer" />
     </list>
     <recent_temporary>
       <list>
