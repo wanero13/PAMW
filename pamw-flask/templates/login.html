@@ -16,12 +16,15 @@
 
 {% block content %}
     <div class="container">
-        <form action="/" class="form-signin" enctype="multipart/form-data" id="myForm" method="POST" name="myForm" onsubmit="return validateForm(event)">
+        <form action="/login" class="form-signin" enctype="multipart/form-data" id="myForm" method="POST" name="myForm">
             <h2 class="form-signing-heading">Logowanie</h2>
             {{ form.hidden_tag() }}
             {{ wtf.form_field(form.loginl) }}
             {{ wtf.form_field(form.passwordl) }}
-            <button class="btn btn-lg btn-primary btn-block" type="submit" id="myBtn">Zarejestruj</button>
+            {% if good %}
+                <p class="error">Niepoprawne dane</p>
+            {% endif %}
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="myBtn">Zaloguj</button>
         </form>
 
     </div> <!-- /container -->

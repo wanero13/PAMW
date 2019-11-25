@@ -24,7 +24,7 @@
             {{ wtf.form_field(form.login) }}
             {{ wtf.form_field(form.password) }}
             {% if istnieje %}
-                <p>Taki użytkownik już istnieje, wybierz inny login</p>
+                <p class="error">Taki użytkownik już istnieje, wybierz inny login</p>
             {% endif %}
             <button class="btn btn-lg btn-primary btn-block" type="submit" id="myBtn">Zarejestruj</button>
         </form>

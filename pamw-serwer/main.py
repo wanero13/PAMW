@@ -1,12 +1,30 @@
-from flask import Flask
-from flask import request
-from flask import make_response
+from flask import Flask, make_response, request, send_from_directory
+from flasgger import Swagger
+from flasgger.utils import swag_from
 
 app = Flask(__name__)
+app.config["SWAGGER"] = {"title": "Swagger-UI", "uiversion": 2}
+swagger_config={
+    "headers": [],
+    "specs": [
+        {
+            "endpoint": "apispec_1",
+            "route": "/apispec_1.json",
+            "rule_filter": lambda rule: True,
+            "model_filter": lambda tag: True,
+        }
+    ],
+    "static_url_path": "/flasgger_static",
+    "swagger_ui": True,
+    "specs_route": "/swagger/"
+}
+
+swagger = Swagger(app, config=swagger_config)
 
 SECRET_KEY='12345678'
 
 @app.route('/')
+@swag_from("swagger_config.yml")
 def hello_world():
     return 'Serwer REST PAMW!'
 

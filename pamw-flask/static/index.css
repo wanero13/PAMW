@@ -3,4 +3,10 @@ h1, p {
   margin-right: 50px;
 }
 
+.loggout {
+  text-align: right;
+  right: 100px;
+  padding-right: 20px;
+}
+
 /*# sourceMappingURL=index.css.map */

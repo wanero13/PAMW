@@ -75,13 +75,13 @@ function addErr(ref, text) {
     newNode.classList.add('error');
     ref.parentNode.appendChild(newNode);
 }
-async function getUserAsync(name){
-    var url = "http://127.0.0.1:8080/user/" + name;
-    const response = await fetch(url);
-    if (response.ok){
-      console.log('AAA');
-      return true
-    }
-    console.log('BBB');
-    return false
-}
+// async function getUserAsync(name){
+//     var url = "http://127.0.0.1:8080/user/" + name;
+//     const response = await fetch(url);
+//     if (response.ok){
+//       console.log('AAA');
+//       return true
+//     }
+//     console.log('BBB');
+//     return false
+// }

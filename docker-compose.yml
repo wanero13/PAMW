@@ -9,7 +9,7 @@ services:
     build: ./pamw-flask
     command: []
     ports:
-      - "3000:80"
+      - "5000:80"
     environment:
       - REDIS_NAME=redis
     depends_on:
@@ -20,4 +20,4 @@ services:
     build: ./pamw-serwer
     command: []
     ports:
-      - "5000:81"
+      - "3000:81"

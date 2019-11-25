@@ -1,0 +1,6 @@
+summary: "Main page"
+description: "This is main page of my API"
+consumes:
+  - "nothing"
+produces:
+  - "nothing"
