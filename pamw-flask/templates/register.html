@@ -2,7 +2,7 @@
 {% import "bootstrap/wtf.html" as wtf %}
 
 {% block title %}
-    Rejestracja
+    Sign up
 {% endblock %}
 
 {% block navbar %}
@@ -17,16 +17,16 @@
 {% block content %}
     <div class="container">
         <form action="/register" class="form-signin" enctype="multipart/form-data" id="myForm" method="POST" name="myForm" onsubmit="return validateForm(event)">
-            <h2 class="form-signing-heading">Rejestracja</h2>
+            <h2 class="form-signing-heading">Registration</h2>
             {{ form.hidden_tag() }}
             {{ wtf.form_field(form.firstname) }}
             {{ wtf.form_field(form.lastname) }}
             {{ wtf.form_field(form.login) }}
             {{ wtf.form_field(form.password) }}
             {% if istnieje %}
-                <p class="error">Taki użytkownik już istnieje, wybierz inny login</p>
+                <p class="error">This login is already taken!</p>
             {% endif %}
-            <button class="btn btn-lg btn-primary btn-block" type="submit" id="myBtn">Zarejestruj</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="myBtn">Create account</button>
         </form>
 
     </div> <!-- /container -->

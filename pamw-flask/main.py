@@ -12,8 +12,6 @@ app = Flask(__name__)
 session_db = redis.Redis(host="redis", port=6379, decode_responses=True, db=0)
 user_db = redis.Redis(host="redis", port=6379, decode_responses=True, db=1)
 
-user_db.set('jan','dzban')
-
 Bootstrap(app)
 nav = Nav(app)
 # W pzyszłości usunąć
@@ -30,9 +28,9 @@ SECRET_KEY = '12345678'
 def mynavbar():
     return Navbar(
         'First Web App',
-        View('Strona główna', 'index'),
-        View('Rejestracja', 'register'),
-        View('Logowanie', 'login'),
+        View('Main page', 'index'),
+        View('Sign up', 'register'),
+        View('Sign in', 'login'),
     )
 
 

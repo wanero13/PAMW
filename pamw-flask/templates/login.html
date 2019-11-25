@@ -2,7 +2,7 @@
 {% import "bootstrap/wtf.html" as wtf %}
 
 {% block title %}
-    Logowanie
+    Sign in
 {% endblock %}
 
 {% block navbar %}
@@ -17,14 +17,14 @@
 {% block content %}
     <div class="container">
         <form action="/login" class="form-signin" enctype="multipart/form-data" id="myForm" method="POST" name="myForm">
-            <h2 class="form-signing-heading">Logowanie</h2>
+            <h2 class="form-signing-heading">Sign in</h2>
             {{ form.hidden_tag() }}
             {{ wtf.form_field(form.loginl) }}
             {{ wtf.form_field(form.passwordl) }}
             {% if good %}
-                <p class="error">Niepoprawne dane</p>
+                <p class="error">Incorrect data</p>
             {% endif %}
-            <button class="btn btn-lg btn-primary btn-block" type="submit" id="myBtn">Zaloguj</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="myBtn">Sign in</button>
         </form>
 
     </div> <!-- /container -->
