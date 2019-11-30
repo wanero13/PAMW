@@ -1,0 +1,36 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+    Main page
+{% endblock %}
+
+
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('.static', filename='index.css')}}">
+{% endblock %}
+
+{% block content %}
+<h1>My files</h1>
+<div class="container">
+    <a href="http://localhost:8080/download/{{name}}?token={{token}}">Pobierz plik</a>
+
+    <form action="http://localhost:8080/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file"/>
+      <input type="hidden" name="token"    value="{{token}}" />
+      <input type="hidden" name="callback" value="localhost:5000/callback" />
+      <input type="submit"/>
+    </form>
+</div>
+{% endblock %}
+
+{% block navbar %}
+    {{nav.loggednavbar.render()}}
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+{% endblock %}
+</body>
+</html>

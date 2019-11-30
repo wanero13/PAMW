@@ -4,3 +4,4 @@ flask_nav
 flask_wtf
 wtforms
 redis
+flask-jwt-extended

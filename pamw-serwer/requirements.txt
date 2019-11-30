@@ -1,3 +1,5 @@
+PyJWT
+flask-jwt-extended
 flask
 flasgger
 routes
