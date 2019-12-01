@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d6f6e80-9d9a-4f38-b5f0-b6d5558bb1d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dummy.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swag/swagger_basic.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swag/swagger_upload.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pamw-flask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pamw-flask/templates/myfiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pamw-flask/templates/myfiles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/swag/swagger_download.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/janek.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/swag" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -174,6 +166,7 @@
       <workItem from="1574641861712" duration="6454000" />
       <workItem from="1575138696697" duration="6929000" />
       <workItem from="1575205145550" duration="8618000" />
+      <workItem from="1575242511505" duration="24000" />
     </task>
     <servers />
   </component>

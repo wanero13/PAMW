@@ -52,6 +52,8 @@ def upload():
             else ('<h1>Error</h1> Invalid token', 401)
 
     fid = decode(t, SECRET_KEY)['identity']
+    if not os.path.exists('./tmp/'):
+        os.mkdir('./tmp/')
     if not os.path.exists('./tmp/' + fid):
         os.mkdir('./tmp/' + fid)
 
