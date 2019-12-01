@@ -13,8 +13,8 @@ import datetime
 JWT_SESSION_TIME=600
 
 app = Flask(__name__)
-session_db = redis.Redis(host="localhost", port=6379, decode_responses=True, db=0)
-user_db = redis.Redis(host="localhost", port=6379, decode_responses=True, db=1)
+session_db = redis.Redis(host="redis", port=6379, decode_responses=True, db=0)
+user_db = redis.Redis(host="redis", port=6379, decode_responses=True, db=1)
 
 Bootstrap(app)
 nav = Nav(app)

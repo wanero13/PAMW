@@ -1,0 +1,18 @@
+tags:
+  - UPLOAD FILE
+summary: "Endpoint to upload pdf files"
+description: "This is the endpoint to which pdf files shall be uploaded"
+consumes:
+  - "WTForm"
+produces:
+  - "nothing"
+parameters:
+  - name: "file"
+    description: "pdf file to be uploaded"
+    required: true
+  - name: "token"
+    description: "JWT to authorize upload"
+    required: true
+  - name: "callback"
+    description: "Address to return to"
+    required: false

@@ -20,4 +20,4 @@ services:
     build: ./pamw-serwer
     command: []
     ports:
-      - "3000:81"
+      - "8080:81"

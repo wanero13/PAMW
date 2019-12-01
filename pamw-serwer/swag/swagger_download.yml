@@ -1,0 +1,12 @@
+tags:
+  - DOWNLOAD FILE
+summary: "Endpoint to download files"
+description: "This is the endpoint that is used to download pdf files"
+consumes:
+  - "URL to file"
+produces:
+  - "PDF File"
+parameters:
+  - name: "token"
+    description: "JWT to authorize download"
+    required: true

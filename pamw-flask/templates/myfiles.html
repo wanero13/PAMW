@@ -14,12 +14,13 @@
 {% block content %}
 <h1>My files</h1>
 <div class="container">
+    <p>Disclaimer - App does not have any validation of a file, so if you upload something differnt than .pdf file the app might crash or work improperly</p>
     <a href="http://localhost:8080/download/{{name}}?token={{token}}">Pobierz plik</a>
 
     <form action="http://localhost:8080/upload" method="POST" enctype="multipart/form-data">
       <input type="file" name="file"/>
       <input type="hidden" name="token"    value="{{token}}" />
-      <input type="hidden" name="callback" value="localhost:5000/callback" />
+      <input type="hidden" name="callback" value="http://localhost:5000/callback" />
       <input type="submit"/>
     </form>
 </div>
