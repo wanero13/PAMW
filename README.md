@@ -22,3 +22,12 @@ Następnie użytkownik może się zalogować klikając w panelu nawigacji w guzi
 
 ## Swagger
 Dokumentacja API w Swaggerze znajduje się pod adresem **loclhost:5000/swagger**. Na razie zawiera tylko bardzo prosty przykład.
+
+
+##Heroku
+REST API: **https://tranquil-spire-07170.herokuapp.com**
+REST API - dokumentacja w swaggerze: **https://tranquil-spire-07170.herokuapp.com/swagger/**
+
+Aplikacja webowa: **https://hidden-sea-70877.herokuapp.com/**
+
+Istniejące kąto: login:janek , hasło:12345678
