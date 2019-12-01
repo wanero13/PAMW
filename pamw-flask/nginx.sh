@@ -6,7 +6,7 @@ echo "client_max_body_size 0;" > /etc/nginx/conf.d/upload.conf
 
 # Static Files Setup
 USE_STATIC_URL=${STATIC_URL:-'/static'}
-USE_STATIC_PATH=${STATIC_PATH:-'/app/static'}
+USE_STATIC_PATH=${STATIC_PATH:-'/static'}
 
 # Generate Nginx config
 echo "server {
