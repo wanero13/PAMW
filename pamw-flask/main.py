@@ -13,8 +13,8 @@ import datetime
 JWT_SESSION_TIME=600
 
 app = Flask(__name__)
-session_db = redis.Redis(host="redis", port=6379, decode_responses=True, db=0)
-user_db = redis.Redis(host="redis", port=6379, decode_responses=True, db=1)
+session_db = redis.Redis(host="localhost", port=6379, decode_responses=True, db=0)
+user_db = redis.Redis(host="localhost", port=6379, decode_responses=True, db=1)
 
 Bootstrap(app)
 nav = Nav(app)
@@ -90,6 +90,8 @@ def login():
                 session_db.set(username, name_hash, ex=600)
                 response = redirect(url_for('index'))
                 response.set_cookie(SESSION_ID, username, max_age=600)
+                token = create_access_token(identity=username)
+                response.set_cookie("jwt", token, max_age=600)
                 return response
             return render_template('login.html', form=form, good=True)
         return render_template('login.html', form=form, good=True)
@@ -105,6 +107,7 @@ def logout():
         session_db.delete(session_id)
     response = redirect(url_for('index'))
     response.set_cookie(SESSION_ID, '', expires=0)
+    response.set_cookie("jwt", '', expires=0)
     return response
 
 
@@ -115,7 +118,7 @@ def myfiles():
         return redirect(url_for('index', reg=False))
     if not session_db.exists(session_id):
         return redirect(url_for('index', reg=False))
-    token = create_access_token(identity=session_id)
+    token=request.cookies.get('jwt')
     return render_template('myfiles.html', token=token, name=session_id)
 
 

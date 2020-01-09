@@ -1,0 +1,512 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-screens] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-permissions] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9433ba9bbba493ba35f169c86ddba1a2\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\9096a2b05663e899ec456cd1396ade78\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\6698cf77fa5e213eaa34b1615efd1aed\AndroidManifest.xml:17:1-24:12
+MERGED from [:expo-app-loader-provider] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\14c6c5bf07fe67b9b094e0b5c8eb2d13\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\601388cfc1e8b2e49e2361b874d812f4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\e0c3a04a53a1f79eb6f7439aeb331c0e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e8deb8634617fe0b9028dc859086cc67\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\1b0fa2b6cbdb5a13958aa3e1c5ac27d9\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\8b1db7eeea129160fc3b56d9000e9c24\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\8d3b3fe4a305eca7aa90e3b42b20f7fe\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\77875dffac789a5774735f60243b0188\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\9f2b621e6f6bdcb68010be7964dd9b87\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\08b07f8666dfe7d8f454c37dee6f418a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\4e400654c2dbe3a396fa5a4006e0c8b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\f4d7415ff26f9bb1d59224d2e144fb77\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\d47db5388a810d18006ab8a689064f2d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\7f0e86fa4271ee6b1fb55f8850f92056\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\fcf33c21c578962d9678146eda1155da\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\b55b0a5f7a0c7ef799a1265b27d17cff\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\4adc57e33c42c0b2b3f2f59156944f56\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\3a15217783254358df8c04ee51d520cd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\5f3c09c6cf7abc4cc987ed3ac85c98fc\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\5267e7456286b1c6fde072d48d9536c1\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\2c1155fe48d427fe57331bf359df5273\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\3494285a2cf971da8b840ee295d7ae9f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\2fe59e0f69b1d158d7b330e0dc18cb57\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\38e59f3fc1bc888d9b2ad09a47290464\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a16529d287a538d3231270604090d0f8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\812341cca97c0ebf39cd4ef4609dd19d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\2f05c3b753af79f0829a5308738b6e4a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\1ca8f69d8dfd3bd32a5711448d437ccc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\d4b86771ec7de82fafe1f09211428f2b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\8e5f63c93d0b9cfdca6400035afacfce\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\5f206f09194bdb85b587f4250f25ffc8\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\741911e4e7a479135a733772992c5d8f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\8c6a1b4d3e609603d78f429498d4a1fa\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\d24d0a7002080a38ba5271ba4eb54628\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\03595cba5c020d2c7d246d10e065d829\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\29929b09da355e5987d43d285ed8396c\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\57ab8684758b81b50efa226d73ede73c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\03f3033d34c32938a9bc5d67a37843de\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\275e4b41ae8561e8896481cd330d976a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\5ebe2e169273ee139c2b46776b70ddad\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\69833467d18237107a90ebc1ab81a4b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\2aa2e894d0bfdc0222c7534874d34cf6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\70ace76e077037fd9521873dbada3f8a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\b3e8aee20fc09ffafc1f94ce5aa4daf2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\93c508b697e13454046714ff9ddbbef7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\ce11f4f09522a56f1025cb4bfe00e7d9\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\4e738895314c7a18a5e6b45756fcba98\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\b728ee8d3c09ac9d3acb735e3e60ab60\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\f16e25e9d78838738339775ec84b6d43\AndroidManifest.xml:17:1-22:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\08908375e07b5e215fcd05ed612a0b0f\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:2:5-26
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:16:5-81
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:25:22-70
+application
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:28:5-46:19
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9433ba9bbba493ba35f169c86ddba1a2\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9433ba9bbba493ba35f169c86ddba1a2\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\9096a2b05663e899ec456cd1396ade78\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\9096a2b05663e899ec456cd1396ade78\AndroidManifest.xml:22:5-20
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\601388cfc1e8b2e49e2361b874d812f4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\601388cfc1e8b2e49e2361b874d812f4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\e0c3a04a53a1f79eb6f7439aeb331c0e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\e0c3a04a53a1f79eb6f7439aeb331c0e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e8deb8634617fe0b9028dc859086cc67\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e8deb8634617fe0b9028dc859086cc67\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\1b0fa2b6cbdb5a13958aa3e1c5ac27d9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\1b0fa2b6cbdb5a13958aa3e1c5ac27d9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\5f3c09c6cf7abc4cc987ed3ac85c98fc\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\5f3c09c6cf7abc4cc987ed3ac85c98fc\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\5267e7456286b1c6fde072d48d9536c1\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\5267e7456286b1c6fde072d48d9536c1\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\2c1155fe48d427fe57331bf359df5273\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\2c1155fe48d427fe57331bf359df5273\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\29929b09da355e5987d43d285ed8396c\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\29929b09da355e5987d43d285ed8396c\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\5ebe2e169273ee139c2b46776b70ddad\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\5ebe2e169273ee139c2b46776b70ddad\AndroidManifest.xml:24:5-25:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\29929b09da355e5987d43d285ed8396c\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:29:7-38
+activity#com.pamw_p3.MainActivity
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml:45:17-81
+uses-sdk
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-screens] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9433ba9bbba493ba35f169c86ddba1a2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9433ba9bbba493ba35f169c86ddba1a2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\9096a2b05663e899ec456cd1396ade78\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\9096a2b05663e899ec456cd1396ade78\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\6698cf77fa5e213eaa34b1615efd1aed\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\6698cf77fa5e213eaa34b1615efd1aed\AndroidManifest.xml:20:5-22:41
+MERGED from [:expo-app-loader-provider] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\14c6c5bf07fe67b9b094e0b5c8eb2d13\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\14c6c5bf07fe67b9b094e0b5c8eb2d13\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\601388cfc1e8b2e49e2361b874d812f4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\601388cfc1e8b2e49e2361b874d812f4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\e0c3a04a53a1f79eb6f7439aeb331c0e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\e0c3a04a53a1f79eb6f7439aeb331c0e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e8deb8634617fe0b9028dc859086cc67\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\e8deb8634617fe0b9028dc859086cc67\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\1b0fa2b6cbdb5a13958aa3e1c5ac27d9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\1b0fa2b6cbdb5a13958aa3e1c5ac27d9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\8b1db7eeea129160fc3b56d9000e9c24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\8b1db7eeea129160fc3b56d9000e9c24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\8d3b3fe4a305eca7aa90e3b42b20f7fe\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\8d3b3fe4a305eca7aa90e3b42b20f7fe\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\77875dffac789a5774735f60243b0188\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\77875dffac789a5774735f60243b0188\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\9f2b621e6f6bdcb68010be7964dd9b87\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\9f2b621e6f6bdcb68010be7964dd9b87\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\08b07f8666dfe7d8f454c37dee6f418a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\08b07f8666dfe7d8f454c37dee6f418a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\4e400654c2dbe3a396fa5a4006e0c8b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\4e400654c2dbe3a396fa5a4006e0c8b0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\f4d7415ff26f9bb1d59224d2e144fb77\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\f4d7415ff26f9bb1d59224d2e144fb77\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\d47db5388a810d18006ab8a689064f2d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\d47db5388a810d18006ab8a689064f2d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\7f0e86fa4271ee6b1fb55f8850f92056\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\7f0e86fa4271ee6b1fb55f8850f92056\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\fcf33c21c578962d9678146eda1155da\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\fcf33c21c578962d9678146eda1155da\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\b55b0a5f7a0c7ef799a1265b27d17cff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\b55b0a5f7a0c7ef799a1265b27d17cff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\4adc57e33c42c0b2b3f2f59156944f56\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\4adc57e33c42c0b2b3f2f59156944f56\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\3a15217783254358df8c04ee51d520cd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\3a15217783254358df8c04ee51d520cd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\5f3c09c6cf7abc4cc987ed3ac85c98fc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\5f3c09c6cf7abc4cc987ed3ac85c98fc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\5267e7456286b1c6fde072d48d9536c1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\5267e7456286b1c6fde072d48d9536c1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\2c1155fe48d427fe57331bf359df5273\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\2c1155fe48d427fe57331bf359df5273\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\3494285a2cf971da8b840ee295d7ae9f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\3494285a2cf971da8b840ee295d7ae9f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\2fe59e0f69b1d158d7b330e0dc18cb57\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\2fe59e0f69b1d158d7b330e0dc18cb57\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\38e59f3fc1bc888d9b2ad09a47290464\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\38e59f3fc1bc888d9b2ad09a47290464\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a16529d287a538d3231270604090d0f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a16529d287a538d3231270604090d0f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\812341cca97c0ebf39cd4ef4609dd19d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\812341cca97c0ebf39cd4ef4609dd19d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\2f05c3b753af79f0829a5308738b6e4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\2f05c3b753af79f0829a5308738b6e4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\1ca8f69d8dfd3bd32a5711448d437ccc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\1ca8f69d8dfd3bd32a5711448d437ccc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\d4b86771ec7de82fafe1f09211428f2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\d4b86771ec7de82fafe1f09211428f2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\8e5f63c93d0b9cfdca6400035afacfce\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\8e5f63c93d0b9cfdca6400035afacfce\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\5f206f09194bdb85b587f4250f25ffc8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\5f206f09194bdb85b587f4250f25ffc8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\741911e4e7a479135a733772992c5d8f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\741911e4e7a479135a733772992c5d8f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\8c6a1b4d3e609603d78f429498d4a1fa\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\8c6a1b4d3e609603d78f429498d4a1fa\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\d24d0a7002080a38ba5271ba4eb54628\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\d24d0a7002080a38ba5271ba4eb54628\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\03595cba5c020d2c7d246d10e065d829\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\03595cba5c020d2c7d246d10e065d829\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\29929b09da355e5987d43d285ed8396c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\29929b09da355e5987d43d285ed8396c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\57ab8684758b81b50efa226d73ede73c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\57ab8684758b81b50efa226d73ede73c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\03f3033d34c32938a9bc5d67a37843de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\03f3033d34c32938a9bc5d67a37843de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\275e4b41ae8561e8896481cd330d976a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\275e4b41ae8561e8896481cd330d976a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\5ebe2e169273ee139c2b46776b70ddad\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\5ebe2e169273ee139c2b46776b70ddad\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\69833467d18237107a90ebc1ab81a4b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\69833467d18237107a90ebc1ab81a4b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\2aa2e894d0bfdc0222c7534874d34cf6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\2aa2e894d0bfdc0222c7534874d34cf6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\70ace76e077037fd9521873dbada3f8a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\70ace76e077037fd9521873dbada3f8a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\b3e8aee20fc09ffafc1f94ce5aa4daf2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\b3e8aee20fc09ffafc1f94ce5aa4daf2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\93c508b697e13454046714ff9ddbbef7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\93c508b697e13454046714ff9ddbbef7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\ce11f4f09522a56f1025cb4bfe00e7d9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\ce11f4f09522a56f1025cb4bfe00e7d9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\4e738895314c7a18a5e6b45756fcba98\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\4e738895314c7a18a5e6b45756fcba98\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\b728ee8d3c09ac9d3acb735e3e60ab60\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\b728ee8d3c09ac9d3acb735e3e60ab60\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\f16e25e9d78838738339775ec84b6d43\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\f16e25e9d78838738339775ec84b6d43\AndroidManifest.xml:20:5-44
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\08908375e07b5e215fcd05ed612a0b0f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\08908375e07b5e215fcd05ed612a0b0f\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\waner\Desktop\PAMW\pamw-p3\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\239142fa3444d3b7104236487999e188\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\1b0fa2b6cbdb5a13958aa3e1c5ac27d9\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\1b0fa2b6cbdb5a13958aa3e1c5ac27d9\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\1b0fa2b6cbdb5a13958aa3e1c5ac27d9\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\waner\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f51f792867efd1616f9a81af59720b78\AndroidManifest.xml:26:13-120

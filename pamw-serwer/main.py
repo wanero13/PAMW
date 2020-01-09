@@ -26,6 +26,8 @@ swagger = Swagger(app, config=swagger_config)
 
 SECRET_KEY = '12345678'
 
+biblioList = []
+fileList = []
 
 # app.config['WTF_CSRF_ENABLED'] = False
 
@@ -39,7 +41,7 @@ def hello_world():
 @swag_from("swag/swagger_upload.yml")
 def upload():
     f = request.files.get('file')
-    t = request.form.get('token')
+    t = request.cookies.get("jwt")
     c = request.form.get('callback')
     if f is None:
         return redirect(f"{c}?error=No+file+provided") if c \
@@ -54,10 +56,11 @@ def upload():
     fid = decode(t, SECRET_KEY)['identity']
     if not os.path.exists('./tmp/'):
         os.mkdir('./tmp/')
-    if not os.path.exists('./tmp/' + fid):
-        os.mkdir('./tmp/' + fid)
+    if not os.path.exists('./tmp/biblio'):
+        os.mkdir('./tmp/biblio')
 
-    f.save(os.path.join('./tmp/' + fid, fid + '.pdf'))
+    #f.save(os.path.join('./tmp/biblio', f.name + '.pdf'))
+    print(f.name)
     f.close()
 
     return redirect(f"{c}?fid={fid}") if c \
@@ -67,7 +70,7 @@ def upload():
 @app.route('/download/<fid>', methods=['GET'])
 @swag_from("swag/swagger_download.yml")
 def download(fid):
-    token = request.args.get('token')
+    token = request.cookies.get("jwt")
     if len(fid) == 0:
         return '<h1>CDN</h1> Missing fid', 404
     if token is None:
