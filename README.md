@@ -31,3 +31,6 @@ REST API - dokumentacja w swaggerze: **https://tranquil-spire-07170.herokuapp.co
 Aplikacja webowa: **https://hidden-sea-70877.herokuapp.com/**
 
 Istniejące kąto: login:janek , hasło:12345678
+
+##Aplikacja mobilna
+Serwer został poszerzony o aplikację mobilną i serwer autoryzujący tą aplikację. W wyniku dostosowania REST API do aplikacji moblinej, znajdująca sie tutaj wersja aplikacji webowej nie jest przystosowana do nowego api. Na heroku nadal jest wystawiona spójna wersja api i aplikacji webowej  przed kilku commitów.
