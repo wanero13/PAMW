@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Bibliograpy App",
+    "name": "My app",
     "slug": "pamw-p3",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -28,6 +28,6 @@
     },
     "entryPoint": "node_modules/expo/AppEntry.js"
   },
-  "displayName": "Hello!",
+  "displayName": "pamw_p3",
   "name": "pamw_p3"
 }

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 08 22:32:57 CET 2020
+#Sun Jan 12 12:11:00 CET 2020
 56.path=lib/arm64-v8a/libyoga.so
 5.base=C\:\\Users\\waner\\Desktop\\PAMW\\pamw-p3\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=C\:\\Users\\waner\\Desktop\\PAMW\\pamw-p3\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0

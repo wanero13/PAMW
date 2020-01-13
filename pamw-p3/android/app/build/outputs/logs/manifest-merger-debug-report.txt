@@ -20,6 +20,7 @@ MERGED from [:expo-font] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-f
 MERGED from [:expo-keep-awake] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-linear-gradient] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-secure-store] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-secure-store\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-sqlite] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-web-browser] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-barcode-scanner-interface] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -294,6 +295,8 @@ MERGED from [:expo-linear-gradient] C:\Users\waner\Desktop\PAMW\pamw-p3\node_mod
 MERGED from [:expo-linear-gradient] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-location] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-secure-store] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-secure-store\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-secure-store] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-secure-store\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-sqlite] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-sqlite] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-web-browser] C:\Users\waner\Desktop\PAMW\pamw-p3\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41

@@ -1,9 +1,9 @@
-from flask import Flask, make_response, request, send_from_directory, send_file
+from flask import Flask, make_response, request, send_from_directory, send_file, jsonify
 from flasgger import Swagger
 from flasgger.utils import swag_from
 from jwt import decode, InvalidTokenError
-import os
-import sys
+import os, sys, json
+from flask_marshmallow import Marshmallow
 
 app = Flask(__name__)
 app.config["SWAGGER"] = {"title": "PAMW REST API", "uiversion": 2}
@@ -25,11 +25,28 @@ swagger_config = {
 swagger = Swagger(app, config=swagger_config)
 
 SECRET_KEY = '12345678'
-
+ma = Marshmallow(app)
+biblioX = set()
 biblioList = []
-fileList = []
+fileList = set()
+
+
+class biblioPos:
+    def __init__(self, name):
+        self.position = name
+        self.pos = []
+
+    def addPos(self, pos):
+        self.pos.append(pos)
+
 
 # app.config['WTF_CSRF_ENABLED'] = False
+
+@app.route('/test')
+def test():
+    print(json.dumps(list(biblioX)))
+    return 'a'
+
 
 @app.route('/')
 @swag_from("swag/swagger_basic.yml")
@@ -42,29 +59,25 @@ def hello_world():
 def upload():
     f = request.files.get('file')
     t = request.cookies.get("jwt")
-    c = request.form.get('callback')
+    c = request.form.get('name')
+    response = make_response('', 401)
     if f is None:
-        return redirect(f"{c}?error=No+file+provided") if c \
-            else ('<h1>Error</h1> No file provided', 400)
+        return response
     if t is None:
-        return redirect(f"{c}?error=No+token+provided") if c \
-            else ('<h1>Error</h1> No token provided', 401)
+        return response
     if not valid(t):
-        return redirect(f"{c}?error=Invalid+token") if c \
-            else ('<h1>Error</h1> Invalid token', 401)
+        return response
 
-    fid = decode(t, SECRET_KEY)['identity']
     if not os.path.exists('./tmp/'):
         os.mkdir('./tmp/')
-    if not os.path.exists('./tmp/biblio'):
-        os.mkdir('./tmp/biblio')
+    if not os.path.exists('./tmp/docs'):
+        os.mkdir('./tmp/docs')
 
-    #f.save(os.path.join('./tmp/biblio', f.name + '.pdf'))
-    print(f.name)
+    f.save(os.path.join('./tmp/docs', c))
     f.close()
-
-    return redirect(f"{c}?fid={fid}") if c \
-        else (f'Uploaded {fid}', 200)
+    fileList.add(c)
+    response = status_code = 200
+    return response
 
 
 @app.route('/download/<fid>', methods=['GET'])
@@ -81,9 +94,33 @@ def download(fid):
     if payload['identity'] != fid:
         return '<h1>CDN</h1> Incorrect token payload', 401
     try:
-        return send_file("./tmp/" + fid + '/' + fid + '.pdf')
+        return send_file("./tmp/docs" + '/' + fid + '.pdf')
     except Exception as e:
         return '<h1> BRAK PLIKU </h1>'
+
+@app.route('/pdfs', methods=['GET'])
+def pdfs():
+    return json.dumps(list(fileList))
+
+
+@app.route('/biblio', methods=['GET', 'POST', 'DELETE'])
+def biblio():
+    token = request.cookies.get('jwt')
+    if token is None:
+        return '<h1>CDN</h1> No token', 401
+    if not valid(token):
+        return '<h1>CDN</h1> Invalid token', 401
+    response = make_response('', 200)
+    if request.method == 'GET':
+        return json.dumps(list(biblioX))
+    if request.method == 'POST':
+        data = json.loads(request.data)
+        biblioX.add(data['name'])
+        return response
+    if request.method == 'DELETE':
+        data = json.loads(request.data)
+        biblioX.remove(data['name'])
+        return response
 
 
 def valid(token):

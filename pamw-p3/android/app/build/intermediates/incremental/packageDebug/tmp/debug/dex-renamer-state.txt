@@ -1,4 +1,4 @@
-#Wed Jan 08 22:32:54 CET 2020
+#Sun Jan 12 12:10:58 CET 2020
 base.0=C\:\\Users\\waner\\Desktop\\PAMW\\pamw-p3\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes.dex
 renamed.1=classes2.dex
