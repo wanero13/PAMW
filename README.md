@@ -2,9 +2,9 @@
 Znajduje się w nim:
  - aplikacja bezstanowa serwująca PDFy - *pamw-serwer*
  - aplikacja stanowa - *pamw-flask* mająca połączenie z bazą danych Redis, w której są przechowywane dane użytkowników oraz identyfikatory sesji
- 
+ - aplikacja mobilna realizowana przy pomocy react-native
+ - serwer autoryzujacy do aplikacji mobilnej
 **Powyższe funkcje są w trakcie realizacji**
-**Język strony zostanie w przyszłości ujednolicony( teraz występuje mieszanka angielskiego i polskiego)**
 
 ## Uruchomienie
 Aby uruchomić aplikacje należy wejść do folderu PAWM (czyli lokalizacji pliku docker-compose.yml), a następnie wykonać komendy
