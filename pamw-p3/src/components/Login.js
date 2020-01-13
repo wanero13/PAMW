@@ -51,9 +51,9 @@ export default class Login extends Component {
             <View style={styles.container}>
                 <Text style={styles.logoText}>Login page</Text>
                 <TextInput style={styles.inputBox} value={this.state.login}
-                           onChangeText={this.onLoginChange} placeholder="Login" placeholderTextColor='#fff5e1'/>
+                           onChangeText={this.onLoginChange} placeholder="login" placeholderTextColor='#fff5e1'/>
                 <TextInput style={styles.inputBox} value={this.state.password}
-                           onChangeText={this.onPasswordChange} placeholder="Password" placeholderTextColor='#fff5e1'
+                           onChangeText={this.onPasswordChange} placeholder="password" placeholderTextColor='#fff5e1'
                            secureTextEntry={true}/>
                 <TouchableOpacity style={styles.button} onPress={this.onSubmitLogin.bind(this)}>
                     <Text style={styles.buttonText}>Login</Text>

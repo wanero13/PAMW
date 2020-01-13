@@ -64,13 +64,13 @@ export default class Signup extends Component {
             <View style={styles.container}>
                 <Text style={styles.logoText}>Registration page</Text>
                 <TextInput style={styles.inputBox} value={this.state.name}
-                           onChangeText={this.onNameChange} placeholder="Name" placeholderTextColor='#fff5e1'/>
+                           onChangeText={this.onNameChange} placeholder="name" placeholderTextColor='#fff5e1'/>
                 <TextInput style={styles.inputBox} value={this.state.surname}
-                           onChangeText={this.onSurnameChange} placeholder="Surname" placeholderTextColor='#fff5e1'/>
+                           onChangeText={this.onSurnameChange} placeholder="surname" placeholderTextColor='#fff5e1'/>
                 <TextInput style={styles.inputBox} value={this.state.login}
-                           onChangeText={this.onLoginChange} placeholder="Login" placeholderTextColor='#fff5e1'/>
+                           onChangeText={this.onLoginChange} placeholder="login" placeholderTextColor='#fff5e1'/>
                 <TextInput style={styles.inputBox} value={this.state.password}
-                           onChangeText={this.onPasswordChange} placeholder="Password" placeholderTextColor='#fff5e1'
+                           onChangeText={this.onPasswordChange} placeholder="password" placeholderTextColor='#fff5e1'
                            secureTextEntry={true}/>
                 <TouchableOpacity style={styles.button} onPress={this.onSubmitRegister.bind(this)}>
                     <Text style={styles.buttonText}>Create account</Text>

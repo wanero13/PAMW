@@ -40,6 +40,11 @@ class biblioPos:
         self.pos.append(pos)
 
 
+biblioX.add('sample_position')
+fileList.add('dummy.pdf')
+fileList.add('sample.pdf')
+
+
 # app.config['WTF_CSRF_ENABLED'] = False
 
 @app.route('/test')
@@ -98,6 +103,7 @@ def download(fid):
     except Exception as e:
         return '<h1> BRAK PLIKU </h1>'
 
+
 @app.route('/pdfs', methods=['GET'])
 def pdfs():
     return json.dumps(list(fileList))
@@ -115,11 +121,13 @@ def biblio():
         return json.dumps(list(biblioX))
     if request.method == 'POST':
         data = json.loads(request.data)
-        biblioX.add(data['name'])
+        if data['name'] not in biblioX:
+            biblioX.add(data['name'])
         return response
     if request.method == 'DELETE':
         data = json.loads(request.data)
-        biblioX.remove(data['name'])
+        if data['name'] in biblioX:
+            biblioX.remove(data['name'])
         return response
 
 

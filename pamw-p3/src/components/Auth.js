@@ -9,26 +9,20 @@ export default class Auth extends Component {
     }
 
     isAuth = async () => {
-        fetch("http://10.0.2.2:3080//login", {
+        fetch("http://10.0.2.2:3080/login", {
             method: 'get',
             credentials: "include"
         }).then((response) => {
-            if (!response.ok) {
-                throw new Error(response.status);
-            }
-            const code = response.status
-            const res = response;
-            return Promise.all([code, res]);
-        }).then(([code, res]) => {
-            if (code === '200') {
-                this.setState({logged: true});
-                console.log(data);
-                console.log('inside');
+            return response;
+        }).then((responseObject) => {
+            console.log(responseObject.status);
+            if (responseObject.status === 200){
                 Actions.authUser();
-            } else {
-                this.setState({logged: false});
-                Actions.login();
             }
+            Actions.login()
+        }).catch((error) => {
+            console.log('error: ' + error);
+            this.setState({logged: false});
         })
     };
 
